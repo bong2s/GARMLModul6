@@ -1,0 +1,23 @@
+{
+  "name": "garml-modul6-ar-sistem-operasi",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:https": "vite --mode https",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-basic-ssl": "^1.2.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2"
+  }
+}
